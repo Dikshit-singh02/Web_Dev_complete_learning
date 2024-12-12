@@ -1,0 +1,33 @@
+:root{
+    --primary-color:brown;
+    --custom-width:400px;
+}
+.container{
+    background-color: beige;
+    height:450px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+   
+    background-color: aquamarine;
+    width: var(--custom-width);
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+    border:5px solid var(--primary-color);
+    /* display: flex; */
+    /* box-shadow:10px 65px blue; */
+    /* box-shadow:10px 10px 15px green; */
+    /* box-shadow: 10px 10px 5px 70px pink; */
+    /* box-shadow: inset -5px -10px 5px gray; */
+    box-shadow: 10px 10px 10px red ,20px 20px 10px blueviolet;
+}
+#head1 {
+text-shadow:3px 3px 2px whitesmoke;
+
+}
+img{height: 220px;
+width: 200px;}
